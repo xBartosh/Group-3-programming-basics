@@ -1,0 +1,33 @@
+Rules for BattleShip
+
+Game Objective
+
+The object of Battleship is to try and sink all of the other player's before they sink all of your ships. 
+All of the other player's ships are somewhere on his/her board(it is a bot in our game). 
+You try and hit them by typing the coordinates of one of the squares on the board.  
+The other player also tries to hit your ships by calling out coordinates(bot does that automatically). 
+Neither you nor the other player can see the other's board so you must try to guess where they are.  
+Each board has two grids: the upper section for the player's ships and the lower part for recording the player's 
+guesses.
+
+Starting a New Game
+
+Each player places the 10 ships somewhere on their board. The ships can only be placed vertically or horizontally. 
+Diagonal placement is not allowed. No part of a ship may hang off the edge of the board.  
+Ships may not overlap each other. No ships may be placed on another ship. 
+
+Once the guessing begins, the players may not move the ships.
+
+The 10 ships are:  1x Battleship (4), 2x Cruiser (3),  3x Destroyer (2), 4x Boat (1).  
+
+Playing the Game
+
+Player's take turns guessing by typing the coordinates. You can see if you missed or hit enemy's ship on the screen. 
+The board is marked with characters: S for hit, * for miss. 
+For example, if you call out F6 and your opponent does not have any ship located at F6, the character will be *.  
+Your miss on F6 is marked by *.
+
+When all of the squares that one your ships occupies have been hit, the ship will be sunk. It will be announced by 
+"x element ship sunk".  
+
+As soon as all of one player's ships have been sunk, the game ends.
